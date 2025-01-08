@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* خلفية بيج فاتحة */
+    display: flex;
+}
+.col-md-9{
+    margin-left: auto !important;
+    margin-top: 40px !important;
+}
+.col-md{
+
+    margin-top: auto !important;
+    margin-left: auto !important;
+}
+
+h1{
+    font-size: 24px;
+}
+/* تنسيق النافبار الجانبي */
+.sidebar {
+    height: 100vh;
+    width: 300px;
+    background-color: #CD7F32;
+    color: white;
+    padding-top: 40px;
+    position: fixed;}
+
+.sidebar a {
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 29px;
+    margin-left: 20px;
+}
+
+.sidebar a:hover {
+    background-color: #f4f4f4; /* أزرق فاتح عند التمرير */
+    border-radius: 20px;
+
+
+}
+.img2{
+    width: 160px;
+    border-radius: 100px;
+    margin-left: 30px;
+}
+.btn{
+
+background-color: #CD7F32;
+border: none;;
+color: black;}
+.btn:hover{
+    background-color: #808000 !important;
+    color:black;
+ 
+}
